@@ -1,7 +1,9 @@
+#Azure 
+
 When it comes for Azure then like aws it also have got multiple authentication options and based on our work and priorities we can opt for any one of it.
 here on this [link](https://www.terraform.io/docs/providers/azurerm/index.html ) you will get more details on Authenticating to Azure 
 
-provider block for Azure looks like this:
+##provider block for Azure looks like this:
 ```
 provider "azurerm" {
   # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
@@ -13,6 +15,8 @@ provider "azurerm" {
 }
 ```
 when i started working on Azure with terraform the version was 1.38.0 which is now 2.0 so you know how rapid the terraform developemnt is happening. I chose to go with authenticating with service principle & secret that way i dont have to worry about session timeouts like issues. Now the question is how to generate these details here's some steps to get started with it
+
+##App registration steps `(service principle with secret)`
 
 - Goto Azure Active Directory
 - App registration
