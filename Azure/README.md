@@ -12,7 +12,7 @@ provider "azurerm" {
   tenant_id = "XXXXXXXXXX"
 }
 ```
-when i started working on Azure with terraform the version was 1.38.0 which is now 2.0 so you know how rapid the terraforom developemnt is happening. I chose to go with authenticating with service principle & secret that way i dont have to worry about session timeouts like issues. Now the question is how to generate these details here's some steps to get started with it
+when i started working on Azure with terraform the version was 1.38.0 which is now 2.0 so you know how rapid the terraform developemnt is happening. I chose to go with authenticating with service principle & secret that way i dont have to worry about session timeouts like issues. Now the question is how to generate these details here's some steps to get started with it
 
 - Goto Azure Active Directory
 - App registration
