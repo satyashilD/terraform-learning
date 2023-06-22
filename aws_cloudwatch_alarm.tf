@@ -1,7 +1,7 @@
 #################### Variable for alarm notification ##############
 variable "actionitem" {
   description = "Send mail alert"
-  default = "arn:aws:sns:us-east-2:788792423310:Test-terraform"
+  default = "arn:aws:sns:us-east-2:XXXX:Test-terraform"
 }
 
 ############### create Cloudwatch alarm ##########################
