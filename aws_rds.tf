@@ -11,7 +11,7 @@ resource "aws_db_instance" "testrds" {
 
   name                                = "terraformdb"
   username                            = "useradmin"
-  password                            = "#windows098"
+  password                            = "XXXXXX"
   port                                = 3306
   
   vpc_security_group_ids = ["sg-08b94a572ae5e8cc1"]
